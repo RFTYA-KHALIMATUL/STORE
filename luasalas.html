@@ -8,6 +8,7 @@
 <body>
     <p>
 <script>
+    //luas segitiga
 let alas = 10
 let tinggi = 10
 let luas = 1/2 * alas * tinggi
@@ -16,6 +17,7 @@ document.write(` alas segitiga ${alas} dan tinggi segitiga ${tinggi} maka luas a
 </p>
 <p>
     <script>
+        //diskon
         let HargaAwal = 100000
         let diskon = 20
         let HargaPotongan = HargaAwal * diskon / 100
@@ -23,6 +25,34 @@ document.write(` alas segitiga ${alas} dan tinggi segitiga ${tinggi} maka luas a
         document.write(`harga ${HargaAwal} setelah potongan ${diskon} adalah: ${HargaPotongan}`)
         document.write(` <br> harga akhir setelah potongan diskon adalah: ${HargaAkhir}`)
 </script>
+</p>
+<p>
+    <script>
+        //alert, prompt, confirm
+        let username = prompt("masukan nama anda:")
+        if(username == "antek asing"){
+        if (confirm("apakah anda yakin?"))
+             alert("selamat berpetualang antek asing")
+      }else{
+            alert("selamat tinggal")
+        }
+    </script>
+</p>
+<p>
+    <script>
+      let nama = prompt("masukan username anda:")
+      if(nama == "aku")
+            alert("selamat datang aku")
+        else
+            alert("selamat tinggal")
+      let password = prompt("masukan password:")
+      if(password == "kamu"){
+                alert("selamat bersenang-senang aku")
+    }else{
+        alert("masukan password yang benar!!")
+    }
+
+    </script>
 </p>
 </body>
 </html>
